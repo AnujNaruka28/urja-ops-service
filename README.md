@@ -41,11 +41,14 @@ npm install
 cp .env.example .env
 ```
 
-Edit `.env` with your credentials in mail:
+Edit `.env` with your credentials.
+
+```
 URJA_API_BASE_URL=https://urja-ops.flockenergy.tech
 URJA_API_USERNAME=operator@urja.local
 URJA_API_PASSWORD=urja-ops-2026
 PORT=3000
+```
 
 ## Running
 
