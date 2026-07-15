@@ -21,7 +21,7 @@ Express API → Route Handlers → Controllers → UrjaClient → Legacy Portal
 
 - `GET /api/meters?q={query}&page={page}` - Search meters with pagination
 - `GET /api/meters/:id` - Get detailed meter information (aggregates details, energy, and geolocation)
-- `GET /api/transformers` - Get distribution transformer information
+- `GET /api/dts` - Get distribution transformer information
 
 ## Installation
 
@@ -79,7 +79,7 @@ curl "http://localhost:3000/api/meters/J100000"
 
 ### Get Transformers
 ```bash
-curl "http://localhost:3000/api/transformers"
+curl "http://localhost:3000/api/dts"
 ```
 
 ## Assumptions
@@ -178,7 +178,3 @@ I would criticise the lack of comprehensive error handling and testing. The serv
 
 - **PROTOCOL.md**: Detailed documentation of how the portal works internally, including authentication, endpoints, and data structures.
 - **openapi.json**: OpenAPI 3.x specification of this API's endpoints.
-
-## License
-
-ISC
